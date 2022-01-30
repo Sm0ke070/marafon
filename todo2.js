@@ -18,7 +18,6 @@ function deleteTask(task) {
     delete list[task];
 }
 
-
 function showList() {
     console.log("Todo:");
     for (let toDoKey in list) {
@@ -40,9 +39,6 @@ function showList() {
     }
 
 }
-
-
-
 changeStatus("write a post", "Done")
 addTask('have a walk')
 deleteTask('have a walk')
